@@ -11,7 +11,7 @@ def index():
     '''
     Первая строка.
     '''
-    return {'message': 'Hello, stranger'}
+    return {'message': 'Hello, world!'}
 
 
 @app.post('/predict')
